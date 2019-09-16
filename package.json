@@ -2,7 +2,9 @@
   "name": "google-place-auto-complete",
   "version": "0.1.0",
   "private": true,
+  "main": "src/googleApis.js",
   "dependencies": {
+    "lodash.debounce": "^4.0.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -13,6 +15,22 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandylib/google-place-auto-complete.git"
+  },
+  "keywords": [
+    "react",
+    "google map",
+    "google address search",
+    "google auto complete service"
+  ],
+  "author": "sandylib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandylib/google-place-auto-complete/issues"
+  },
+  "homepage": "https://github.com/sandylib/google-place-auto-complete#readme",
   "eslintConfig": {
     "extends": "react-app"
   },

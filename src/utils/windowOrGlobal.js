@@ -1,0 +1,5 @@
+
+// eslint-disable-next-line no-restricted-globals
+module.exports = (typeof self === 'object' && self.self === self && self) ||
+  (typeof global === 'object' && global.global === global && global) ||
+  this

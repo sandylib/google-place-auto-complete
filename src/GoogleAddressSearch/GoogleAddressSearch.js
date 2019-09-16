@@ -1,26 +1,8 @@
-## google-place-auto-complete
-
-is a customized component for google place AutocompleteService.
-
-## `GoogleAddressSearch`: example of how to use `PlacesAutocomplete` and `GoogleApiWrapper`
-
-### Example
-
-```javascript
-
 import React from 'react';
-import classnames from 'classnames';
-import {
-  PlacesAutocomplete,
-  geocodeByAddress, 
-  getLatLng, 
-  GoogleApiWrapper
- } from 'google-place-auto-complete'
-
-
-
-const GoogleApiWrapper = 'your api key';
-
+import PlacesAutocomplete, { geocodeByAddress, getLatLng } from '../GooglePlaceAutoComplete/'
+import { classnames } from '../utils/helps';
+import GoogleApiWrapper from '../GoogleApiWrapper/GoogleApiWrapper';
+import GOOGLE_API_KEY from '../googleApiKey';
 
 class GoogleAddressSearch extends React.Component {
   constructor(props) {
@@ -174,10 +156,3 @@ class GoogleAddressSearch extends React.Component {
 
 
 export default GoogleApiWrapper({apiKey: GOOGLE_API_KEY })(GoogleAddressSearch)
-
-
-```
-
-
-
-
