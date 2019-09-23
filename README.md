@@ -6,7 +6,7 @@ is a customized component for google place AutocompleteService.
 
 ### Example
 
-![Sample](./sample.png?raw=true "google address search")
+![Sample](./src/sample.png?raw=true "google address search")
 
 
 Below is using the <GoogleAddressSearch {...props}/> components is using google-place-auto-complete <PlacesAutocomplete {...prop}/ > created example.
