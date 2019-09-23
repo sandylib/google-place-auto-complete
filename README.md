@@ -6,10 +6,14 @@ is a customized component for google place AutocompleteService.
 
 ### Example
 
+![Sample](./sample.png?raw=true "google address search")
+
+
+Below is using the <GoogleAddressSearch {...props}/> components is using google-place-auto-complete <PlacesAutocomplete {...prop}/ > created example.
 ```javascript
 
 import React from 'react';
-import classnames from 'classnames';
+import { classnames } from '../utils/helps';
 import {
   PlacesAutocomplete,
   geocodeByAddress, 
