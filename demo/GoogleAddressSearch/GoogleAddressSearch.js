@@ -1,7 +1,7 @@
 import React from 'react';
-import PlacesAutocomplete, { geocodeByAddress, getLatLng } from '../GooglePlaceAutoComplete/'
+import PlacesAutocomplete,  {GoogleApiWrapper, geocodeByAddress, getLatLng } from '../../src/index';// 'google-place-auto-complete'
 import { classnames } from '../utils/helps';
-import GoogleApiWrapper from '../GoogleApiWrapper/GoogleApiWrapper';
+
 import GOOGLE_API_KEY from '../googleApiKey';
 
 class GoogleAddressSearch extends React.Component {

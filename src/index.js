@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import GoogleApiWrapper from './GoogleApiWrapper/GoogleApiWrapper';
+import PlacesAutocomplete from './GooglePlaceAutoComplete/PlacesAutocomplete';
+import { geocodeByAddress, geocodeByPlaceId, getLatLng } from './utils/helps';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export {
+  GoogleApiWrapper,
+  geocodeByAddress, 
+  geocodeByPlaceId, 
+  getLatLng
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+export default PlacesAutocomplete;
+
+

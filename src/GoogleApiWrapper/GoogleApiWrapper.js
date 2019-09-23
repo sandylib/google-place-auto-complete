@@ -1,8 +1,6 @@
 import React from 'react';
-
 import {ScriptCache} from '../utils/ScriptCache'; 
 import GoogleApi from '../utils/GoogleApi'; 
-
 
 const serialize = obj => JSON.stringify(obj);
 const isSame = (obj1, obj2) => obj1 === obj2 || serialize(obj1) === serialize(obj2);
